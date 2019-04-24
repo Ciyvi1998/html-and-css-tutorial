@@ -1,26 +1,26 @@
 *{
     box-sizing: border-box;
 }
-.wrap{
-   padding: 50px;
+.notification{
+    position: fixed;
+    top:30px;
+    right: 40px;
+    border: 1px solid gray;
+    padding: 15px;
 }
-.item{ 
-    position: relative;
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin-right: 30px;
-    background-color: bisque;
-    border-radius: 10px;
+.text{
+    display: block;
+    max-width: 300px;
 }
-.label{
+p{
+    font-size: 24px;
+    font-weight: 880px;
+    margin-top: 0;
+}
+.close-btn{
     position: absolute;
-    top:-10px;
-    right:-10px;
-    height: 20px;
-    background-color: red;
-    color:white;
-    border: 1px solid white;
-    padding: 1px 3px;
-    border-radius: 15px;
+    top:10px;
+    right:10px;
+    color: gray;
+    text-decoration: none;
 }
